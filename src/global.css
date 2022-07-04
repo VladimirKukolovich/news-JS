@@ -1,16 +1,20 @@
 body {
-    color: #fff;
-    background: #17181c;
-    font-family: sans-serif;
+    color: rgb(58, 45, 45);
+    background: #d4d9ed;
+    /* font-family: sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
-    padding: 10px 30px;
+    /* padding: 10px 30px; */
+    padding: 0 5%;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 5rem;
     font-weight: 800;
+
+    text-align: center;
 }
 
 footer {
@@ -32,4 +36,14 @@ footer .copyright a:hover {
 }
 footer .copyright:before {
     content: '©';
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+}
+.rs {
+    width: 60px;
 }
