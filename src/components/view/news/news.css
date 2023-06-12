@@ -169,3 +169,9 @@
         padding-left: 25px;
     }
 }
+
+.dropdown-content {
+    max-height: 55vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

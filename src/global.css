@@ -45,6 +45,7 @@ footer .copyright:before {
     justify-content: space-evenly;
     align-items: center;
     width: 70%;
+    flex: 0 0 auto;
 }
 .rs {
     width: 60px;
@@ -52,6 +53,7 @@ footer .copyright:before {
 
 .rs {
     fill: #444;
+    background-color: #555;
 }
 
 .git a{
