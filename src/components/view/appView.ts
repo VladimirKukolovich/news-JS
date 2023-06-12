@@ -1,5 +1,3 @@
-import { SourceData } from '../controller/controller';
-import { Article } from '../controller/controller';
 import News from './news/news';
 import Sources from './sources/sources';
 

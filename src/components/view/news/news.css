@@ -1,6 +1,11 @@
+.news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
 .news__item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 1rem auto;
     margin-bottom: 1.6%;
     background: #fff;
@@ -56,7 +61,7 @@
     padding: 1rem;
     background: #fff;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 .news__item .news__description h2 {
