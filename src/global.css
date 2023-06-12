@@ -2,6 +2,9 @@ body {
     color: #fff;
     background: #17181c;
     font-family: sans-serif;
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -15,9 +18,12 @@ header h1 {
 
 footer {
     height: 100px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: auto;
+    margin-bottom: 0;
 }
 footer .copyright {
     font-size: 14px;
@@ -32,4 +38,17 @@ footer .copyright a:hover {
 }
 footer .copyright:before {
     content: '©';
+}
+
+.rs {
+    fill: #444;
+}
+
+.git a{
+    color: #444;
+    font-size: 14px;
+}
+
+.git a:hover {
+    color: #555;
 }
